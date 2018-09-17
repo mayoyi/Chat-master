@@ -1,0 +1,1 @@
+"use strict";geotab.addin.soporteEnLinea=function(){var e;return{initialize:function(n,t,o){e=document.querySelector("#soporteEnLinea"),o()},focus:function(n,t){t.setState({hello:"world"}),n.getSession(function(n){e.querySelector("#soporteEnLinea-user").textContent=n.userName}),e.className=""},blur:function(){e.className="hidden"}}};

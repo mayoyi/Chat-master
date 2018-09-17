@@ -1,0 +1,216 @@
+/*.metrica {
+    height: 50px;
+    background-image: url(../img/barra.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
+.metrica .padding {
+    padding: 10px;
+}
+
+.metrica .left {
+    float: left;
+}
+
+.metrica .right {
+    float: right;
+}
+
+.metrica .logo {
+    margin-left: 10em;
+}
+
+.metrica .icon {
+    height: 35px;
+}
+
+.metrica .shopping-info {
+    width: 80%;
+    float: left;
+    margin-left: 10px;
+    margin-top: .5em;
+}
+
+.shopping-info label {
+    font-family: sans-serif;
+    font-size: 1em;
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.metrica a {
+    color: white;
+    text-decoration: none;
+}
+
+.product-guide {
+    width: 15%;
+    float: left
+}
+
+.product-guide .info {
+    width: 80%;
+    float: left;
+    margin-top: .5em;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px),
+@media only screen and (min-width: 321px),
+@media only screen and (max-width: 320px),
+@media only screen and (min-width: 1224px),
+@media only screen and (min-width: 1824px),
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3),
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3),
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3),
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+    .metrica {
+        height: 50px;
+        background-image: url(../img/barra.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        font-family: sans-serif;
+        font-size: 1em;
+        color: white;
+    }
+    .metrica .padding {
+        padding: 1px;
+    }
+    .metrica .left {
+        float: left;
+    }
+    .metrica .right {
+        float: right;
+    }
+    .metrica .logo {
+        margin-left: 10em;
+    }
+    .metrica .icon {
+        height: 25px;
+    }
+    .metrica .shopping-info {
+        width: 80%;
+        float: left;
+        margin-left: 1px;
+        margin-top: .5em;
+    }
+    .shopping-info label {
+        font-family: sans-serif;
+        font-size: 1em;
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-left: 5px;
+    }
+    .metrica a {
+        color: white;
+        text-decoration: none;
+    }
+    .product-guide {
+        margin-left: 5em;
+        width: auto;
+    }
+    .product-guide .info {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px),
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape),
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait),
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2),
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .metrica {
+        height: 50px;
+        background-image: url(../img/barra.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        font-family: sans-serif;
+        font-size: 1em;
+        color: white;
+    }
+    .metrica .padding {
+        padding: 1px;
+    }
+    .metrica .left {
+        float: left;
+    }
+    .metrica .right {
+        float: right;
+    }
+    .metrica .logo {
+        margin-left: 10em;
+    }
+    .metrica .icon {
+        height: 25px;
+    }
+    .metrica .shopping-info {
+        width: 80%;
+        float: left;
+        margin-left: 1px;
+        margin-top: .5em;
+    }
+    .shopping-info label {
+        font-family: sans-serif;
+        font-size: 1em;
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-left: 5px;
+    }
+    .metrica a {
+        color: white;
+        text-decoration: none;
+    }
+    .product-guide {
+        margin-left: 5em;
+        width: auto;
+    }
+    .product-guide .info {
+        display: none;
+    }
+    .embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+
+  .embed-responsive-item,
+  iframe,
+  embed,
+  object,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+}
+    // Modifier class for 16:9 aspect ratio
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+
+// Modifier class for 4:3 aspect ratio
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+}*/

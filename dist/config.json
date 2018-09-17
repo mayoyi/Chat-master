@@ -1,0 +1,13 @@
+{
+  "name": "Soporte_en_Linea",
+  "supportEmail": "mayra.delgado@metricamovil.com",
+  "version": "0.0.1",
+  "items": [{
+    "url": "https://rawgit.com/MayraDelgado/Chat/master/index.html/index2.html",
+    "path": "",
+    "menuName": {
+      "en": "Soporte en Linea"
+    },
+    "icon": "https://rawgit.com/MayraDelgado/Chat/master/index.html/images/icon.svg"
+  }]
+}
